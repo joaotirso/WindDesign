@@ -1,0 +1,8 @@
+http://wind.nrel.gov/Web_nrel/ -> each image represents 10 turbines with 3MW
+
+South Park, Colorado
+http://www.nrel.gov/midc/spmd/
+ID 10912, Loc. 39.14N 104.76W, Cap. 24.4%
+ID 10926, Loc. 39.16N 104.74W, Cap. 24.3%
+
+windspeed in miles/h

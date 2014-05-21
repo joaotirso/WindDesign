@@ -1,0 +1,6 @@
+statet -> R -> eclipse
+analise exploratoria dos dados
+comecar a construir a metodologia experimental -> processo
+package - caret -> atentar a create time slices
+
+explorar caret e explorar os dados.

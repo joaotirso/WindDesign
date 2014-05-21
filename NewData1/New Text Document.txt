@@ -1,0 +1,53 @@
+dat11 = read.csv(file="WindDesign/NewData/17649.csv",head=TRUE,sep=",");
+dat12 = read.csv(file="WindDesign/NewData/17649-2.csv",head=TRUE,sep=",");
+dat21 = read.csv(file="WindDesign/NewData/17778.csv",head=TRUE,sep=",");
+dat22 = read.csv(file="WindDesign/NewData/17778-2.csv",head=TRUE,sep=",")
+dat31 = read.csv(file="WindDesign/NewData/17779.csv",head=TRUE,sep=",");
+dat32 = read.csv(file="WindDesign/NewData/17779-2.csv",head=TRUE,sep=",")
+dat41 = read.csv(file="WindDesign/NewData/17780.csv",head=TRUE,sep=",");
+dat42 = read.csv(file="WindDesign/NewData/17780-2.csv",head=TRUE,sep=",")
+dat51 = read.csv(file="WindDesign/NewData/17911.csv",head=TRUE,sep=",");
+dat52 = read.csv(file="WindDesign/NewData/17911-2.csv",head=TRUE,sep=",")
+
+dat11slices<-createTimeSlices(dat11$ratedpoweroutput,
+                            100,
+                            30, 
+                            fixedWindow=TRUE);
+dat12slices<-createTimeSlices(dat12$ratedpoweroutput,
+                             100,
+                             30, 
+                             fixedWindow=TRUE);
+
+
+dat21slices<-createTimeSlices(dat21$ratedpoweroutput,
+                        100,
+                        30,
+                        fixedWindow=TRUE);
+dat22slices<-createTimeSlices(dat22$ratedpoweroutput,
+                             100,
+                             30,
+                             fixedWindow=TRUE);
+dat31slices<-createTimeSlices(dat31$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);
+dat32slices<-createTimeSlices(dat32$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);
+dat41slices<-createTimeSlices(dat41$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);
+dat42slices<-createTimeSlices(dat42$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);
+dat51slices<-createTimeSlices(dat51$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);
+dat52slices<-createTimeSlices(dat52$ratedpoweroutput,
+                              100,
+                              30,
+                              fixedWindow=TRUE);

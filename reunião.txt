@@ -1,0 +1,4 @@
+variaveis de localização
+variaveis a representar as outras turbinas
+construir representção dinamkica dos vizinhos atraves de vectores
+regressão linear - grafico
