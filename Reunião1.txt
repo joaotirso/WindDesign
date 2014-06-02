@@ -1,0 +1,2 @@
+calcular os vizinhos através do vector.
+ter em conta o angulo do vento em relação aos vizinhos.
